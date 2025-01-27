@@ -82,10 +82,10 @@
 <div class="navbar">
     <div>
         <a href="buyer_main.php">Home</a>
-        <a href="buyer_orders.php">Orders</a>
-        <a href="buyer_track.php">Track</a>
+        <a href="buyer_bookpurchase.php">Books</a>
         <a href="buyer_refunds.php">Refund Requests</a>
         <a href="buyer_account.php">Account Management</a>
+        <a href="buyer_track.php">Track</a>
     </div>
     <div>
         <?php if ($userLoggedIn): ?>
@@ -104,24 +104,24 @@
 
         <div class="grid">
             <div class="card">
-                <h3>Orders</h3>
-                <p>View and manage your orders.</p>
-                <a href="buyer_orders.php">Go to Orders</a>
-            </div>
-            <div class="card">
-                <h3>Track Order</h3>
-                <p>Track the status of your orders.</p>
-                <a href="buyer_track.php">Track your Orders</a>
+                <h3>Purchase a Book</h3>
+                <p>Acquire your desire book.</p>
+                <a href="buyer_bookpurchase.php">Browse for Books</a>
             </div>
             <div class="card">
                 <h3>Refund Requests</h3>
                 <p>Submit and manage your refund requests.</p>
-                <a href="buyer_refunds.php">Refund Requests</a>
+                <a href="buyer_refunds.php">Initiate a Refund Request</a>
             </div>
             <div class="card">
                 <h3>Account Management</h3>
                 <p>Update your profile and account settings.</p>
                 <a href="buyer_account.php">Manage Account</a>
+            </div>
+            <div class="card">
+                <h3>Track Order</h3>
+                <p>Track the status of your orders.</p>
+                <a href="buyer_track.php">Track your Orders</a>
             </div>
         </div>
     </div>
