@@ -93,8 +93,8 @@
     <div>
         <a href="seller_main.php">Home</a>
         <a href="seller_listings.php" class="active">Book Listings</a>
-        <a href="seller_processorders.php">Process Orders</a>
-        <a href="seller_refundresponse.php">Refund Response</a>
+        <a href="seller_track.php">Process Orders</a>
+        <a href="seller_refunds.php">Refund Response</a>
         <a href="seller_account.php">Account Management</a>
     </div>
     <div>
