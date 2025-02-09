@@ -76,7 +76,7 @@
     <?php 
         // Simulating a logged-in user
         $userLoggedIn = true; 
-        $username = "Palanichamy Naveen"; // Sample username
+        $username = "Buyer"; // Sample username
     ?>
 
 <div class="navbar">
